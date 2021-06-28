@@ -1,0 +1,25 @@
+*v{
+    padding: 0;
+    margin: 0;
+}
+
+.background-div {
+    width: 33%;
+    height: 100vh;
+}
+
+#background-div-1 {
+    background-color: lightblue;
+    float: left;
+}
+
+#background-div-2 {
+    width: 34%;
+    background-color: gray;
+    display: inline-block;
+}
+
+#background-div-3 {
+    background-color:lightsalmon;
+    float: right;
+}
