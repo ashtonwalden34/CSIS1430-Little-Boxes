@@ -3,14 +3,18 @@
     margin: 0;
 }
 
+/* Backgrounds */
 .background-div {
     width: 33%;
     height: 100vh;
+    text-align: center;
+    z-index: -1;
 }
 
 #background-div-1 {
     background-color: lightblue;
     float: left;
+    text-align: center;
 }
 
 #background-div-2 {
@@ -22,4 +26,98 @@
 #background-div-3 {
     background-color:lightsalmon;
     float: right;
+    position: relative;
+}
+
+.shape-wrapper {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 100px solid black;
+    z-index: 1;
+}
+
+#triangle-1 {
+    margin-top: 10vh;
+    border-bottom: 100px solid magenta;
+}
+
+#triangle-2 {
+    margin-top: 10vh;
+    border-bottom: 100px solid yellow;
+}
+
+#triangle-3 {
+    margin-top: 10vh;
+    border-bottom: 100px solid seagreen;
+}
+
+.square {
+    width: 10vw;
+    height: 10vh;
+    background-color: black;
+}
+
+#square-1 {
+    background-color: yellow;
+    margin-top: 15vh;
+}
+
+#square-2 {
+    background-color: magenta;
+    margin-top: 10vh;
+}
+
+#square-3 {
+    background-color: tomato;
+    margin-top: 15vh;
+}
+
+.circle {
+    width: 10vw;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 15vh;
+}
+
+#circle-1 {
+    background-color: seagreen;
+}
+
+#circle-2 {
+    background-color: tomato;
+}
+
+#circle-3 {
+    background-color: magenta;
+    margin-top: 10vh;
+}
+
+.rectangle {
+    width: 20vw;
+    height: 10vh;
+    background-color: black;
+    margin-top: 10vh;
+}
+
+#rectangle-1 {
+    background-color: tomato;
+}
+
+#rectangle-2 {
+    margin-top: 15vh;
+    background-color: seagreen;
+}
+
+#rectangle-3 {
+    margin-top: 15vh;
+    background-color: yellow;
 }
